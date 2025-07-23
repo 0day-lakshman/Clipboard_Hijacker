@@ -1,20 +1,20 @@
 # Clipboard_Hijacker
 A Clipboard Hijacker is a type of malware or script designed to monitor and manipulate the contents of a system’s clipboard. This is particularly dangerous in contexts where users copy sensitive data (like cryptocurrency addresses, passwords, or command-line instructions). The attacker typically replaces clipboard contents with their own data, often unnoticed by the victim.
 
-🔍 What Does a Clipboard Hijacker Do?
-** Monitors Clipboard Activity:
+# What Does a Clipboard Hijacker Do?
+## Monitors Clipboard Activity :
 Continuously checks the system clipboard for changes.
 Typically runs silently in the background.
 
-** Checks for Specific Patterns:
+## Checks for Specific Patterns:
 Looks for specific formats (e.g., Bitcoin wallet addresses, URLs, credit card numbers).
 Uses regex to identify such patterns.
 Replaces Clipboard Content:
 
-** Injects attacker-controlled data (e.g., attacker's wallet address).
+## Injects attacker-controlled data (e.g., attacker's wallet address).
 Victim unknowingly pastes the attacker’s data instead of their own.
 
-How to use:
+# How to use:
 Run Flask webserver your attacker machine using python so you need to install flask.
 
 python3 -m pip install flask
@@ -33,5 +33,5 @@ chmod +x clipBoardHijacker.sh
 
 After that your webserver will getting target machine clipboard data in every 10 sec.
 
-⚠️ Ethical and Legal Warning
+# Ethical and Legal Warning
 Using or distributing clipboard hijackers for malicious purposes is illegal and unethical. This information is intended only for educational and awareness purposes (e.g., malware analysis, red teaming with permission, or teaching cybersecurity concepts).
